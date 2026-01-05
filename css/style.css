@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content:space-between; /* распределяет информацию по контеинеру */
+    align-items: center;
+
+}
+
+footer{
+    background-color: aquamarine;
+}
+
+main{
+    background-color: aqua;
+}
+
+.infaa{
+    text-align: center;
+    margin: 0 auto; /* Центррирует блок на странице */
+    max-width: 800px; /* Максимальная ширина картинки */
+}
+
+li{
+    font-size: 25px;
+}
+
+h2 {
+    text-align: center;
+}
+
+p{
+    min-width: 200px;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+img {
+    display: block; /* делает картинку блоком */
+    margin: 15px auto; /* отступы сверху/снизу и выравнивает по центру */
+    padding: 5px 5px; /* оотступы сверху/снизу, справа/лева */
+    background-color: white;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.new-link, .link-right{
+    font-size: 20px;
+    color: black;
+
+}
