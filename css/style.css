@@ -7,16 +7,19 @@
 header{
     display: flex;
     justify-content:space-between; /* распределяет информацию по контеинеру */
-    align-items: center;
-
+    align-items: center;    
+    background-color: blue;
 }
 
 footer{
     background-color: aquamarine;
+    height: 350px;
 }
 
 main{
     background-color: aqua;
+    display: block;
+    height: 620px;
 }
 
 .infaa{
@@ -29,13 +32,20 @@ li{
     font-size: 25px;
 }
 
-h2 {
+ul{
+    list-style: none;
+}
+
+h1, h2 {
     text-align: center;
+    margin: 0px;
+    padding: 10px 0;
 }
 
 p{
     min-width: 200px;
     font-size: 20px;
+    text-align: center;
 }
 
 a{
@@ -57,6 +67,25 @@ img {
 
 .new-link, .link-right{
     font-size: 20px;
+    padding: 40px;
     color: black;
 
+}
+
+#articles{
+    padding: 25px 40px; /* отступы сверху/снизу, права/лева внутри рамки*/
+    width: 300px; /* ширина рамки */
+    margin: 30px auto; /* отступы сверху/снизу, права/лева снаружи рамки */
+    border-radius: 50px; /* закругление углов рамеки */
+    background-color: blueviolet;
+}
+
+.inheres{
+    font-size: 20px;
+    margin-bottom: 12px;
+    padding: 12px 20px;
+    text-decoration: none;
+    display: block;
+    background-color: yellowgreen;
+    color: black;
 }
