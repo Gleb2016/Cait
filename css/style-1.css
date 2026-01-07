@@ -1,0 +1,100 @@
+header{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    padding: 0 20px;
+}
+main{
+    text-align: center;
+    background-color: peachpuff;
+    padding: 10px 0px;
+    height: 1500px;
+    width:1500px;
+}
+
+.wrapper{
+    width: 450px;
+    height: 450px;
+    border: 3px solid #fff;
+    margin: 0 auto; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+
+    /* padding: 10px; чтобы отолкнуться на несколько лпикселей внутреними полями */
+}
+
+.conteiner{
+    width: 400px;
+    height: 350px;
+    margin: 10px 10px;
+    display: flex;
+    justify-content: center;   
+    background-color: white;
+
+}
+
+.conteiner img{
+    display: block;
+    object-fit: cover;
+    object-position: 80% 20%;
+    width: 100%;
+    height: 100%;
+}
+
+.conteiner1{
+    /* Расположение блоков */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.solo{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    background-color: rgb(255, 254, 254);
+    padding: 1px;
+    padding-top: 7px;
+}
+
+.solo-1{
+    width: 30px;
+    height: 30px;
+    margin: -2px 5px;
+    background-color: rgb(255, 254, 254);
+    padding: 1px;
+    padding-top: 1px;
+}
+
+.card{
+    /* Сами контеинеры */
+    margin: 10px;
+    width: 250px;
+    height: 250px;
+    border: 3px solid #fff;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.new-link{
+    font-size: 20px;
+    padding: 20px;
+    list-style: none;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+h2{
+    margin-right: auto;
+    margin-left: 300px;
+}
